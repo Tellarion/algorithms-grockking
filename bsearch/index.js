@@ -19,8 +19,6 @@ function load_names() {
 
 load_names().then(names => {
 
-    console.log(names.length)
-
     let array_numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
     let array_names = names
     let o_operations = 1 // o big opetations count
